@@ -28,15 +28,19 @@
   },
   "name":"between_breath",
   "resources":[
+    {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_vida","path":"objects/obj_vida/obj_vida.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
+    {"id":{"name":"spr_colisor","path":"sprites/spr_colisor/spr_colisor.yy",},},
+    {"id":{"name":"spr_player_fantasma_andando","path":"sprites/spr_player_fantasma_andando/spr_player_fantasma_andando.yy",},},
+    {"id":{"name":"spr_player_fantasma_parado","path":"sprites/spr_player_fantasma_parado/spr_player_fantasma_parado.yy",},},
+    {"id":{"name":"spr_player_morto_vivo_andando","path":"sprites/spr_player_morto_vivo_andando/spr_player_morto_vivo_andando.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
